@@ -1,13 +1,10 @@
 package goshaTasks;
 
-import sun.applet.Main;
-
 import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Alina on 16.10.2019.
  */
-/*
 public class GoshaThread {
 
     public static void main(String[] args) throws InterruptedException {
@@ -40,4 +37,3 @@ public class GoshaThread {
         System.out.println("Fast method");
     }
 }
-*/

@@ -1,4 +1,4 @@
-package chat;
+/*package chat;
 
 import java.io.*;
 import java.net.Socket;
@@ -38,3 +38,4 @@ public class ServerSomething extends Thread {
             } catch (IOException ignored){}
         }
 }
+*/

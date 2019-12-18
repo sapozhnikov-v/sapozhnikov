@@ -1,4 +1,4 @@
-package chat;
+/*package chat;
 
 public class Client {
 
@@ -9,3 +9,4 @@ public class Client {
         new ClientSomething(ipAddr, port);
     }
 }
+*/

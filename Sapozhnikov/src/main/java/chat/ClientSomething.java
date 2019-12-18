@@ -1,4 +1,4 @@
-package chat;
+/*package chat;
 
 import java.io.*;
 import java.net.Socket;
@@ -67,3 +67,4 @@ public class ClientSomething {
         }
     }
 }
+*/
