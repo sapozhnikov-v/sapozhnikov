@@ -1,4 +1,4 @@
-package ru.sapozhnikov.sensorschecker.emulator.sensor.sensor;
+package ru.sapozhnikov.sensorchecker.client.sensor.importer;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
@@ -11,8 +11,9 @@ import ru.sapozhnikov.sensorschecker.core.sensor.Sensor;
 import java.util.List;
 
 @Component
-public class SensorsListImport {
-    @Value(value = "${rest.url}")
+public class SensorsListImporter {
+
+    @Value(value = "${rest.url}/sensors")
     private String url;
 
     public List<Sensor> getSensors() {

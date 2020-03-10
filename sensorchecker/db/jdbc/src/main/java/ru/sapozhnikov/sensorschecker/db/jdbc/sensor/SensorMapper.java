@@ -18,7 +18,7 @@ public class SensorMapper implements RowMapper<Sensor> {
         sensor.setId(resultSet.getInt("id"));
         sensor.setType(SensorType.valueOf(resultSet.getString("type").toUpperCase()));
         sensor.setName(resultSet.getString("name"));
-        sensor.setIdTruck(resultSet.getInt("idtruck"));
+        sensor.setIdTruck(resultSet.getInt("truck_id"));
         return sensor;
     }
 }

@@ -4,30 +4,23 @@ import ru.sapozhnikov.sensorschecker.core.sensor.SensorType;
 
 import java.util.Random;
 
-public class Randomizer {
+import static ru.sapozhnikov.sensorschecker.core.sensor.SensorType.*;
 
-    private int min;
-    private int max;
+public class Randomizer {
 
     public int getRandomValue(SensorType type) {
         int x = 0;
         Random random = new Random();
         switch (type) {
             case TEMP:
-                min = -50;
-                max = 50;
-                x = min + random.nextInt(max - min + 1);
+                x = TEMP.getMin() + random.nextInt(TEMP.getMax() - TEMP.getMin() + 1);
                 break;
             case TILT:
-                min = -180;
-                max = 180;
-                x = min + random.nextInt(max - min + 1);
+                x = TILT.getMin() + random.nextInt(TILT.getMax() - TILT.getMin() + 1);
                 break;
             case MOIST:
-                max = 100;
-                x = random.nextInt(max + 1);
+                x = random.nextInt(MOIST.getMax() + 1);
                 break;
-
         }
         return x;
     }

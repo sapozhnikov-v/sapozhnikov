@@ -18,4 +18,10 @@ public class SensorController {
     public List<Sensor> getAllSensors() {
         return sr.getAllSensors();
     }
+
+    @PostMapping(value = "/sensoradd", consumes = "application/json")
+    public void addTruck(@RequestBody Sensor sensor) {
+        sr.addSensor(sensor);
+
+    }
 }

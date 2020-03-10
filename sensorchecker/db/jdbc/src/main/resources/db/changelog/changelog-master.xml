@@ -8,6 +8,20 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
     <changeSet id="1" author="vet">
+        <createTable tableName="truck">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="number" type="varchar(9)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2" author="vet">
         <createTable tableName="sensor">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
@@ -18,21 +32,21 @@
             <column name="name" type="varchar(50)">
                 <constraints nullable="false"/>
             </column>
-            <column name="idtruck" type="numeric(10)">
-                <constraints nullable="false"/>
+            <column name="truck_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_sensor_truck" references="truck(id)"/>
             </column>
         </createTable>
     </changeSet>
 
-    <changeSet id="2" author="vet">
+    <changeSet id="3" author="vet">
         <createTable tableName="sensor_value">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="id_sensor" type="bigint">
-                <constraints nullable="false" foreignKeyName="fk_sensorsvalue_sensor" references="sensor(id)"/>
+            <column name="sensor_id" type="bigint">
+                <constraints nullable="false" foreignKeyName="fk_sensorvalue_sensor" references="sensor(id)"/>
             </column>
-            <column name="sensorvalue" type="numeric(10)">
+            <column name="sensor_value" type="numeric(10)">
                 <constraints nullable="false"/>
             </column>
             <column name="action_date" type="timestamp without timezone"/>

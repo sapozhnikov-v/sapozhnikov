@@ -2,12 +2,12 @@ package ru.sapozhnikov.sensorschecker.core.sensor;
 
 public class Sensor {
 
-    private int id;
+    private Integer id;
     private SensorType type;
     private String name;
     private int idTruck;
 
-    public Sensor(int id, SensorType type, String name, int idTruck) {
+    public Sensor(Integer id, SensorType type, String name, int idTruck) {
         this.id = id;
         this.type = type;
         this.name = name;
@@ -18,11 +18,11 @@ public class Sensor {
 
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

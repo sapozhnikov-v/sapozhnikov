@@ -10,7 +10,7 @@ import ru.sapozhnikov.sensorschecker.core.sensor.SensorValue;
 @Component
 public class SensorValueListener {
 
-    @Value(value = "${rest.url}")
+    @Value(value = "${rest.url}/sensorsvalue")
     private String url;
 
 
