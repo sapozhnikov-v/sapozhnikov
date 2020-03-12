@@ -15,10 +15,9 @@ public class SheduledProducer {
     @Autowired
     private KafkaMessageProducer producer;
 
-    @Scheduled(fixedRateString = "${fixedratestring}")
+    @Scheduled(fixedRateString = "${rate.value.generate}")
     public void sendMessagetoKafka() {
         emulator.sensorEmulate().forEach(producer::sendMessage);
     }
-
 
 }

@@ -1,4 +1,4 @@
-package ru.sapozhnikov.sensorchecker.client.sensor.importer;
+package ru.sapozhnikov.sensorschecker.client.sensor.component;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
@@ -6,22 +6,22 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import ru.sapozhnikov.sensorschecker.core.sensor.Sensor;
+import ru.sapozhnikov.sensorschecker.core.sensor.SensorValue;
 
 import java.util.List;
 
 @Component
-public class SensorsListImporter {
+public class SensorValueListComponent {
 
-    @Value(value = "${rest.url}/sensors")
+    @Value(value = "${rest.url}/sensorsvalue/")
     private String url;
 
-    public List<Sensor> getSensors() {
+    public List<SensorValue> getSensorValueByTruckId(int truckId) {
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<List<Sensor>> responseEntity = restTemplate.exchange(url,
-                HttpMethod.GET, null, new ParameterizedTypeReference<List<Sensor>>() {
+        ResponseEntity<List<SensorValue>> responseEntity = restTemplate.exchange(url + truckId,
+                HttpMethod.GET, null, new ParameterizedTypeReference<List<SensorValue>>() {
                 });
         return responseEntity.getBody();
-
     }
+
 }

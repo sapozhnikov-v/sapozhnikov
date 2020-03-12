@@ -7,7 +7,6 @@ import ru.sapozhnikov.sensorschecker.core.sensor.Truck;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
 @Component
 public class TruckMapper implements RowMapper<Truck> {
 
@@ -19,4 +18,5 @@ public class TruckMapper implements RowMapper<Truck> {
         truck.setNumber(resultSet.getString("number"));
         return truck;
     }
+
 }

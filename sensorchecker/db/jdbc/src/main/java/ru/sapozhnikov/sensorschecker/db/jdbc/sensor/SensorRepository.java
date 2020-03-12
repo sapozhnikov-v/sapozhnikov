@@ -9,23 +9,22 @@ import java.util.List;
 
 @Repository
 public class SensorRepository {
-    private static final String SQL_GET_SENSORS = "select * from sensor order by id";
+
+    private static final String SQL_GET_SENSORS = "select id,type,name,truck_id from sensor order by id";
     private static final String SQL_ADD_SENSOR = "insert into sensor (type,name,truck_id) values (?,?,?)";
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
-    private SensorMapper sM;
+    private SensorMapper sensorMapper;
 
     public List<Sensor> getAllSensors() {
-        return jdbcTemplate.query(SQL_GET_SENSORS, sM);
+        return jdbcTemplate.query(SQL_GET_SENSORS, sensorMapper);
     }
 
     public void addSensor(Sensor sensor) {
-
-        jdbcTemplate.update(SQL_ADD_SENSOR, sensor.getType().toString(),sensor.getName(),sensor.getIdTruck());
-
+        jdbcTemplate.update(SQL_ADD_SENSOR, sensor.getType().toString(), sensor.getName(), sensor.getIdTruck());
     }
 
 }

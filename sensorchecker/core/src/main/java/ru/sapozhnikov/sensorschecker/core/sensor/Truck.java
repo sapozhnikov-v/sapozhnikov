@@ -1,6 +1,7 @@
 package ru.sapozhnikov.sensorschecker.core.sensor;
 
 public class Truck {
+
     private Integer id;
     private String name;
     private String number;
@@ -11,7 +12,7 @@ public class Truck {
         this.number = number;
     }
 
-    public Truck(){
+    public Truck() {
 
     }
 
@@ -47,4 +48,5 @@ public class Truck {
                 ", number='" + number + '\'' +
                 '}';
     }
+
 }

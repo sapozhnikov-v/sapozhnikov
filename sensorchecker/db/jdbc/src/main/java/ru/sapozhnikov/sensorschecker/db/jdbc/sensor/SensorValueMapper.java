@@ -7,7 +7,6 @@ import ru.sapozhnikov.sensorschecker.core.sensor.SensorValue;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
 @Component
 public class SensorValueMapper implements RowMapper<SensorValue> {
 
@@ -20,4 +19,5 @@ public class SensorValueMapper implements RowMapper<SensorValue> {
         sensorValue.setDate(resultSet.getTimestamp("action_date"));
         return sensorValue;
     }
+
 }

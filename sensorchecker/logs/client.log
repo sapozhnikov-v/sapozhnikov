@@ -1,0 +1,103 @@
+2020-03-12 20:03:15,025 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 20:03:15,172 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 20:03:15,308 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 20:03:26,173 INFO r.s.s.c.s.JavaFXApp [JavaFX Application Thread] Application closed
+2020-03-12 20:51:32,359 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 20:51:32,518 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 20:51:33,016 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 20:51:36,286 INFO r.s.s.c.s.JavaFXApp [JavaFX Application Thread] Application closed
+2020-03-12 21:42:53,487 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 21:42:53,652 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 21:42:54,149 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 21:53:50,221 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 21:53:50,380 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 21:53:50,846 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 21:54:01,442 INFO r.s.s.c.s.JavaFXApp [JavaFX Application Thread] Application closed
+% d [% -6p]% c {1} -% m% n% d [% -6p]% c {1} -% m% n% d [% -6p]% c {1} -% m% n% d [% -6p]% c {1} -% m% n2020-03-12 22:00:52,744 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 22:00:52,922 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 22:00:53,117 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 22:00:55,484 INFO r.s.s.c.s.JavaFXApp [JavaFX Application Thread] Application closed
+2020-03-12 22:07:55,582 INFO r.s.s.c.s.JavaFXApp [JavaFX-Launcher] Application started
+2020-03-12 22:07:55,817 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableSensor[]
+2020-03-12 22:07:56,465 INFO r.s.s.c.s.c.MainWindowController [JavaFX Application Thread] setItemsToTableTruck[]
+2020-03-12 22:08:02,437 INFO r.s.s.c.s.JavaFXApp [JavaFX Application Thread] Application closed
+2020-03-12 22:08:58,929 [INFO] JavaFXApp – Application started
+2020-03-12 22:08:59,134 [INFO] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:08:59,315 [INFO] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:09:01,806 [INFO] JavaFXApp – Application closed
+2020-03-12 22:14:14,218 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:14:14,467 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:14:15,170 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:14:40,085 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:19:51,493 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:19:51,674 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:19:52,191 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:20:18,962 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:22:00,285 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:22:00,455 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:22:00,641 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:22:09,572 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:22:40,539 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:22:40,691 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:22:40,825 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:22:44,102 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:25:44,863 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:25:45,012 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:25:45,153 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:26:45,093 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:26:56,943 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:26:57,130 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:26:57,296 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:26:59,400 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:29:25,650 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:29:25,848 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:29:26,016 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:29:37,859 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:29:55,624 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:29:55,799 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:29:55,972 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:31:24,793 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:31:37,565 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:31:37,808 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:31:38,034 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:31:41,600 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:32:38,537 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:32:38,748 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:32:38,922 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:32:58,621 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:33:51,850 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:33:52,042 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:33:52,214 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:34:01,722 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:35:11,947 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:35:12,261 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:35:12,610 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:35:29,134 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:36:22,395 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:36:22,637 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:36:22,804 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:36:28,528 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:37:17,133 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:37:17,349 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:37:17,653 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:37:25,754 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:38:03,303 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:38:03,470 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:38:03,641 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:38:15,200 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:39:23,847 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:39:24,033 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:39:24,234 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:39:31,804 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:39:47,548 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:39:47,761 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:39:48,033 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:40:11,195 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:43:34,219 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:43:34,458 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:43:35,311 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:44:15,049 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-12 22:52:42,699 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-12 22:52:42,864 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-12 22:52:43,428 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
+2020-03-12 22:53:09,841 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed

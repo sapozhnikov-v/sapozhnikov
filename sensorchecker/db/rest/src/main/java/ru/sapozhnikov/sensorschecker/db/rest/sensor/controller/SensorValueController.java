@@ -1,5 +1,7 @@
 package ru.sapozhnikov.sensorschecker.db.rest.sensor.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.sapozhnikov.sensorschecker.core.sensor.SensorValue;
@@ -11,17 +13,21 @@ import java.util.List;
 @RequestMapping
 public class SensorValueController {
 
+    private static Logger logger = LogManager.getLogger(SensorValueController.class);
+
     @Autowired
-    private SensorValueRepository srv;
+    private SensorValueRepository sensorValueRepository;
 
     @PostMapping(value = "/sensorsvalue", consumes = "application/json")
     public void addSensorValue(@RequestBody SensorValue value) {
-        srv.addSensorValue(value);
-
+        logger.info("addSensorValue[{}]", value);
+        sensorValueRepository.addSensorValue(value);
     }
 
     @GetMapping(value = "/sensorsvalue/{truckId}", produces = "application/json")
     public List<SensorValue> getSensorValueByTruckId(@PathVariable("truckId") int truckId) {
-        return srv.getSensorValueByTruckid(truckId);
+        logger.info("getSensorValueByTruckId[{}]", truckId);
+        return sensorValueRepository.getSensorValueByTruckid(truckId);
     }
+
 }

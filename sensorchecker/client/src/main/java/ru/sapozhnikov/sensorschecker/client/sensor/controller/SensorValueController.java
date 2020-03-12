@@ -1,4 +1,4 @@
-package ru.sapozhnikov.sensorchecker.client.sensor.controller;
+package ru.sapozhnikov.sensorschecker.client.sensor.controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,27 +9,22 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import net.rgielen.fxweaver.core.FxmlView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ru.sapozhnikov.sensorchecker.client.sensor.importer.SensorValueListImporter;
+import ru.sapozhnikov.sensorschecker.client.sensor.component.SensorValueListComponent;
 import ru.sapozhnikov.sensorschecker.core.sensor.SensorValue;
 
-import java.net.URL;
 import java.util.Date;
-import java.util.ResourceBundle;
 
 @Component
 @FxmlView("sensorValue.fxml")
 public class SensorValueController {
 
     @Autowired
-    SensorValueListImporter sVLI;
-    @Autowired
-    MainWindowController mVC;
-    private ObservableList<SensorValue> sensorValueList = FXCollections.observableArrayList();
-    @FXML
-    private ResourceBundle resources;
+    private SensorValueListComponent sensorValueListComponent;
 
-    @FXML
-    private URL location;
+    @Autowired
+    private MainWindowController mainWindowController;
+
+    private ObservableList<SensorValue> sensorValueList = FXCollections.observableArrayList();
 
     @FXML
     private TableView<SensorValue> tableSensorValue;
@@ -48,27 +43,21 @@ public class SensorValueController {
 
     @FXML
     void initialize() {
-
-        setItemsToTableSensorValue(MainWindowController.truckIdFromTableTruck);
-
+        setItemsToTableSensorValue(mainWindowController.getTruckIdFromTableTruck());
     }
 
     private void setItemsToTableSensorValue(int truckId) {
-        initSensorValueData(truckId);
-
+        feelSensorValueList(truckId);
         columnSensorValueId.setCellValueFactory(new PropertyValueFactory<SensorValue, Integer>("id"));
         columnSensorId.setCellValueFactory(new PropertyValueFactory<SensorValue, Integer>("sensorId"));
         columnSensorValue.setCellValueFactory(new PropertyValueFactory<SensorValue, Integer>("value"));
         columnActionDate.setCellValueFactory(new PropertyValueFactory<SensorValue, Date>("date"));
-
         tableSensorValue.setItems(sensorValueList);
-
     }
 
-    private void initSensorValueData(int truckId) {
-
+    private void feelSensorValueList(int truckId) {
         sensorValueList.removeAll(sensorValueList);
-        sensorValueList.addAll(sVLI.getSensorValueByTruckId(truckId));
+        sensorValueList.addAll(sensorValueListComponent.getSensorValueByTruckId(truckId));
     }
 
 }

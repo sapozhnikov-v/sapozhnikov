@@ -8,7 +8,7 @@ import static ru.sapozhnikov.sensorschecker.core.sensor.SensorType.*;
 
 public class Randomizer {
 
-    public int getRandomValue(SensorType type) {
+    public static int getRandomValue(SensorType type) {
         int x = 0;
         Random random = new Random();
         switch (type) {

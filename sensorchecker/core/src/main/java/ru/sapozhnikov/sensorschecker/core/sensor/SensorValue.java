@@ -9,8 +9,6 @@ public class SensorValue {
     private int value;
     private Date date;
 
-
-
     public SensorValue(int sensorId, int value) {
         this.sensorId = sensorId;
         this.value = value;
@@ -68,4 +66,5 @@ public class SensorValue {
                 ", date=" + date +
                 '}';
     }
+
 }

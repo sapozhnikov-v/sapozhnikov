@@ -9,23 +9,22 @@ import java.util.List;
 
 @Repository
 public class TruckRepository {
-    private static final String SQL_GET_TRUCKS = "select * from truck order by id";
+
+    private static final String SQL_GET_TRUCKS = "select id,name,number from truck order by id";
     private static final String SQL_ADD_TRUCK = "insert into truck (name,number) values (?,?)";
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
-    private TruckMapper tM;
+    private TruckMapper truckMapper;
 
     public List<Truck> getAllTrucks() {
-        return jdbcTemplate.query(SQL_GET_TRUCKS, tM);
+        return jdbcTemplate.query(SQL_GET_TRUCKS, truckMapper);
     }
 
     public void addTruck(Truck truck) {
-
-        jdbcTemplate.update(SQL_ADD_TRUCK, truck.getName(),truck.getNumber());
-
+        jdbcTemplate.update(SQL_ADD_TRUCK, truck.getName(), truck.getNumber());
     }
 
 }

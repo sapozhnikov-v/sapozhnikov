@@ -8,7 +8,6 @@ import ru.sapozhnikov.sensorschecker.core.sensor.SensorType;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
 @Component
 public class SensorMapper implements RowMapper<Sensor> {
 
@@ -21,4 +20,5 @@ public class SensorMapper implements RowMapper<Sensor> {
         sensor.setIdTruck(resultSet.getInt("truck_id"));
         return sensor;
     }
+
 }

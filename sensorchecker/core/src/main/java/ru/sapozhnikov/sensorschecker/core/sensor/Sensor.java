@@ -59,4 +59,5 @@ public class Sensor {
                 ", idTruck=" + idTruck +
                 '}';
     }
+
 }
