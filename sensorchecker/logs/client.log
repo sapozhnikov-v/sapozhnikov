@@ -101,3 +101,6 @@
 2020-03-12 22:52:42,864 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
 2020-03-12 22:52:43,428 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableTruck[]
 2020-03-12 22:53:09,841 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed
+2020-03-13 09:29:53,633 [INFO] [JavaFX-Launcher] JavaFXApp – Application started
+2020-03-13 09:29:53,802 [INFO] [JavaFX Application Thread] MainWindowController – setItemsToTableSensor[]
+2020-03-13 09:29:54,882 [INFO] [JavaFX Application Thread] JavaFXApp – Application closed

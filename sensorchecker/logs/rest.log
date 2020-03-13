@@ -250,3 +250,15 @@
 2020-03-12 22:52:43,094 [INFO] [http-nio-8080-exec-1] SensorController – getAllSensors[]
 2020-03-12 22:52:43,439 [INFO] [http-nio-8080-exec-2] TruckController – getAllTrucks
 2020-03-12 22:52:53,582 [INFO] [http-nio-8080-exec-3] SensorValueController – getSensorValueByTruckId[3]
+2020-03-13 09:30:26,696 [INFO] [main] Application – Starting Application on InMotion-PC with PID 3868 (C:\Users\InMotion\sapozhnikov\sensorchecker\db\rest\target\classes started by InMotion in C:\Users\InMotion\sapozhnikov\sensorchecker)
+2020-03-13 09:30:26,721 [INFO] [main] Application – No active profile set, falling back to default profiles: default
+2020-03-13 09:30:30,757 [INFO] [main] JdbcExecutor – SELECT COUNT(*) FROM public.databasechangeloglock
+2020-03-13 09:30:30,761 [INFO] [main] JdbcExecutor – SELECT COUNT(*) FROM public.databasechangeloglock
+2020-03-13 09:30:30,764 [INFO] [main] JdbcExecutor – SELECT LOCKED FROM public.databasechangeloglock WHERE ID=1
+2020-03-13 09:30:30,784 [INFO] [main] StandardLockService – Successfully acquired change log lock
+2020-03-13 09:30:33,153 [INFO] [main] JdbcExecutor – SELECT MD5SUM FROM public.databasechangelog WHERE MD5SUM IS NOT NULL LIMIT 1
+2020-03-13 09:30:33,158 [INFO] [main] JdbcExecutor – SELECT COUNT(*) FROM public.databasechangelog
+2020-03-13 09:30:33,160 [INFO] [main] StandardChangeLogHistoryService – Reading from public.databasechangelog
+2020-03-13 09:30:33,160 [INFO] [main] JdbcExecutor – SELECT * FROM public.databasechangelog ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC
+2020-03-13 09:30:33,182 [INFO] [main] StandardLockService – Successfully released change log lock
+2020-03-13 09:30:33,631 [INFO] [main] Application – Started Application in 7.81 seconds (JVM running for 9.967)
